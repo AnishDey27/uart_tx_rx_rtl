@@ -24,7 +24,7 @@ uart_tx_rx_rtl/
 ├── tb/
 │   ├── uart_rx_rtl_tb.v     # Receiver unit testbench
 │   └── uart_tx_rtl_tb.v     # Transmitter unit testbench
-├── docs/
+├── doc/
 │   ├── rx_schematic.pdf     # RX RTL schematic
 │   ├── tx_schematic.pdf     # TX RTL schematic
 │   ├── rx_waveform.png      # RX simulation waveform
@@ -77,14 +77,14 @@ The repository includes dedicated unit testbenches for both modules (`uart_rx_rt
 
 Below is the simulation waveform demonstrating the transmission of parallel data into a serialized bitstream:
 
-![TX Waveform](docs/tx_waveform.png)
+![TX Waveform](doc/tx_waveform.png)
 
-Schematic: [tx_schematic.pdf](docs/tx_schematic.pdf)
+Schematic: [tx_schematic.pdf](doc/tx_schematic.pdf)
 
 ### Receiver Simulation
 
 Below is the simulation waveform demonstrating the 16x oversampled reception and decoding of a serial bitstream back into parallel bytes:
 
-![RX Waveform](docs/rx_waveform.png)
+![RX Waveform](doc/rx_waveform.png)
 
-Schematic: [rx_schematic.pdf](docs/rx_schematic.pdf)
+Schematic: [rx_schematic.pdf](doc/rx_schematic.pdf)
